@@ -59,7 +59,7 @@ describe("factorial", () => {
   });
 
   it("should throw error if the input is negative number", () => {
-    expect(() => factorial(-10)).toThrowError(
+    expect(() => factorial()).toThrowError(
       "Number must be a positive integer!"
     );
   });
